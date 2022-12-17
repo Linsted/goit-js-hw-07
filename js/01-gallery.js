@@ -24,9 +24,7 @@ function createGalleryMarkup(items) {
     />
    </a>
   </div>`).join('')
-  
 };
-
 
 function getFullImgLink(event) {
   if (event.target.nodeName !== 'IMG') return;
